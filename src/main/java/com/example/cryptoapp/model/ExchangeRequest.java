@@ -7,6 +7,12 @@ public class ExchangeRequest {
 	private List<String> to;
 	private double amount;
 
+	public ExchangeRequest(String from, List<String> to, double amount) {
+		this.from = from;
+		this.to = to;
+		this.amount = amount;
+	}
+
 	public String getFrom() {
 		return from;
 	}
